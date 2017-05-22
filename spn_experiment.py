@@ -4,8 +4,8 @@ import numpy as np
 # make an SPN holder
 spn = SPN()
 # include training and testing data
-spn.add_data('movietrain.txt', 'train', cont=True)
-spn.add_data('movietest.txt', 'test', cont=True)
+spn.add_data('output/movietrain.txt', 'train', cont=True)
+spn.add_data('output/movietest.txt', 'test', cont=True)
 # create a valid sum product network
 
 sum_branch_factor = (2, 4)
